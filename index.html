@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia Entremigas</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-between">
+            <h1>Navbar</h1>
+            <div class="d-flex align-items-center">
+                <h2>🛒</h2>
+                <div id="contenedorCantidadProductosTotal"> <!-- Esto se rellena con JS -->  </div>
+            </div>
+            
+        </div>
+        
+        
+    </header>
+
+    <main>
+        <section>
+            <h2>Productos</h2>
+            <div id="productos" class="d-flex justify-content-evenly align-items-center">
+                <!-- Esto se rellena con JS -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Carrito</h2>
+            <div id="carritoVacio">
+                <h4>Tu Carrito está vacío</h4>
+            </div>
+            
+            <div id="productosCarrito" class="d-none">
+                <!-- Esto se rellena con JS -->
+            </div>
+
+            <div id="productosTotal">
+                <!-- Esto se rellena con JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
