@@ -1,0 +1,14 @@
+[
+    {   "titulo": "Producto 01",
+        "precio": 500,
+        "img": "../img/02_Zapatillas.jpg "        
+    },
+    {   "titulo": "Producto 02",
+        "precio": 1000,
+        "img": "../img/03_Zapatillas.jpg "        
+    },   
+    {   "titulo": "Producto 03",
+        "precio": 2000,
+        "img": "../img/05_Zapatillas.jpg "        
+    } 
+]
