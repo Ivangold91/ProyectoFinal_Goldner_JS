@@ -3,53 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panaderia Entremigas</title>
+    <title>Entre Migas | Panificados Artesanales</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/ac70803b41.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <div class="d-flex justify-content-between">
-            <h1>Navbar</h1>
-            <div class="d-flex align-items-center">
-                <h2>🛒</h2>
+        <div class="d-flex justify-content-between bg-dark text-light">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo_entremigas.JPG" class="logoNavbar rounded-circle" alt="Logo Entremigas">
+            </a>
+            <div class="d-flex align-items-center me-5">
+                <h1>🛒</h1>
                 <div id="contenedorCantidadProductosTotal"> <!-- Esto se rellena con JS -->  </div>
             </div>
-            
         </div>
-        
-        
     </header>
-
-    <main>
+    <hr>
+    <main class="fondoMainContacto">
         <section>
-            <h2>Productos</h2>
+            <h2 class="letra-productos bg-dark text-light d-flex justify-content-center ">Productos</h2>
             <div id="productos" class="d-flex justify-content-evenly align-items-center">
                 <!-- Esto se rellena con JS -->
             </div>
         </section>
-
+        <hr>
         <section>
-            <h2>Carrito</h2>
+            <h2 class="bg-warning text-dark">Facturas Pedidas</h2>
             <div id="carritoVacio">
-                <h4>Tu Carrito está vacío</h4>
+                <h4 class="fs-5">Tu Carrito está vacío</h4>
             </div>
             
             <div id="productosCarrito" class="d-none">
                 <!-- Esto se rellena con JS -->
             </div>
-
-            <div id="productosTotal">
+            <hr>
+            <div id="productosTotal" class="fs-2 bg-warning">
                 <!-- Esto se rellena con JS -->
             </div>
         </section>
 
     </main>
-
-    <footer>
-        <h2>Footer</h2>
+    <hr>
+    <footer class="footer container-fluid">   
+        <div class="row justify-content-center align-items-center bloqueFooter py-5 px-5">
+            <div class="col-sm-12 col-md-6">
+                <img src="./img/logo_entremigas.JPG" class="logoNavbar rounded-circle" alt="logo Entremigas">
+                <p class="">
+                    El secreto para lograr la calidad, la frescura y el sabor inigualable 
+                    de los productos que elaboramos responde a un arte, que se transmite de 
+                    generación en generación y se basa en la pasión por lo que hacemos.</p>
+                <br>
+                
+                <div class="redes-sociales container justify-content-evenly align-items-center">
+                    <a href="https://www.instagram.com/">   <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;" ></i>   </a>
+                    <a href="https://www.facebook.com/">   <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>   </a>
+                    <a href="https://www.whatsapp.com/?lang=es_LA">   <i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i>   </a>       
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 d-flex flex-column ">
+                <div class="texto-footer bloqueInfoFooter">
+                    <i class="fa-solid fa-house"></i>
+                    <div>
+                        <p>VISITANOS</p>
+                        <p>Av. Sta. Catalina 5449, N3300 Posadas, Misiones</p>
+                    </div>    
+                </div>
+                <br>
+                <div class="texto-footer">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <p>LLAMANOS</p>
+                        <p>03764-737144</p>
+                    </div>  
+                </div>
+                <br>
+                <div class="texto-footer">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <p>ABRIMOS</p>
+                        <p>Lunes a Domingo: 07:00 - 13:00 y 16:00 - 20:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>             
     </footer>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>

@@ -1,14 +1,18 @@
 [
-    {   "titulo": "Producto 01",
-        "precio": 500,
-        "img": "../img/02_Zapatillas.jpg "        
+    {   "titulo": "Dulce de Batata",
+        "precio": 800,
+        "img": "../img/01_facturas_batata.jpg "        
     },
-    {   "titulo": "Producto 02",
-        "precio": 1000,
-        "img": "../img/03_Zapatillas.jpg "        
+    {   "titulo": "Crema y DDL",
+        "precio": 1200,
+        "img": "../img/02_facturas_crema_dulceleche.jpg "        
     },   
-    {   "titulo": "Producto 03",
-        "precio": 2000,
-        "img": "../img/05_Zapatillas.jpg "        
+    {   "titulo": "Dulce de Leche",
+        "precio": 1000,
+        "img": "../img/03_facturas_dulceleche.jpg "        
+    },
+    {   "titulo": "Medialunas",
+        "precio": 800,
+        "img": "../img/04_medialunas.jpg "        
     } 
 ]

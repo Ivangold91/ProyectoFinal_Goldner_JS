@@ -31,8 +31,14 @@ const mostrarProductos = (dataProductos) => {
         ` ;
         // Creo un boton con una clase de bootstrap y le agrego un evento.
         const btn = document.createElement ("button");
-        // btn.classList.add("h-50");
-    
+        btn.classList.add("pt-3");
+        btn.classList.add("bg-secondary");
+        btn.innerText = "Agregar al carrito";
+        btn.classList.add("text-light");
+        btn.classList.add("d-flex");
+        btn.classList.add("align-items-center");
+        btn.classList.add("justify-content-center");
+
         // Dentro de este evento llamo a una función para agregar producto al carrito
         btn.addEventListener ("click", () => {
             agregarAlCarrito (producto);
@@ -123,6 +129,7 @@ const actualizarCarrito = (producto) => {
     }   
     productosTotal(producto);
     contenedorCantidadProductosTotal.innerText = contadorProductosTotal() ;
+    contenedorCantidadProductosTotal.classList.add ("fs-2");
 
     localStorage.setItem("carrito", JSON.stringify(carrito));
 }
